@@ -1,1 +1,8 @@
-theme: jekyll-theme-minimal
+# Github Recommended Settings
+markdown: kramdown
+
+# Blog Settings
+lang: en
+domain: andersonvom.github.io
+title: andersonvom
+tagline: ':(){:|:&amp;};:'

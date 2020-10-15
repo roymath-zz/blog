@@ -3,7 +3,7 @@ layout: post
 title: Contributing to an Open Source Project&#58; OpenStack
 ---
 
-I've been working on [OpenStack][] for a little over three months now
+I've been working on [OpenStack][] for a little over three months now,
 and it has been a great experience: not only I'm being paid to write
 code that is used by millions of people, this code is also freely
 available for people to read and improve as they see fit.  Having used

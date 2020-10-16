@@ -13,7 +13,7 @@ How to convert *AsciiDoc* to *HTML/PDF* files output and publish it to *gh-pages
 ** {link-demo-html}[HTML output file]
 ** {link-demo-pdf}[PDF output file]
 
-Roy was here; this blog post describes the workflow used to do it:
+This blog post by roy, describes the workflow used to do it:
 
 * http://mgreau.com/posts/2016/03/28/asciidoc-to-gh-pages-with-travis-ci-docker-asciidoctor.html
 

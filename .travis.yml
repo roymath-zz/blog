@@ -25,4 +25,4 @@ after_success:
   - git config user.name "${GH_USER_NAME}"
   - git config user.email "{GH_USER_EMAIL}"
   - git add . ; git commit -m "Deploy to GitHub Pages"
-  - git push "https://${GH_TOKEN}@${GH_REF}" blog-with-asciidoc::gh-pages
+  - git push "https://${GH_TOKEN}@${GH_REF}" blog-with-asciidocx::gh-pagesx

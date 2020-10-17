@@ -1,3 +1,3 @@
 all:
-	asciidoctor -r asciidoctor-diagram roy2.adoc
+	asciidoctor -r asciidoctor-diagram roy.adoc -o index.html
 

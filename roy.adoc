@@ -33,7 +33,7 @@ roy -> lata : hey there
 
 Multicolumn 
 
-Someone showed me that there was some hard-coded width in the result (cannot remember which line that was). Removing that produced a two column HTML, which was kind of ok. But, of course, in HTML the content goes down the full first column, which isn't what I wanted. For now I decided that maybe a searchable HTML with a table of contents isn't that bad after all
+Someone, somewhere showed me that there was some hard-coded width in the result (cannot remember which line that was). Removing that produced a two column HTML, which was kind of ok. But, of course, in HTML the content goes down the full first column, which isn't what I wanted. For now I decided that maybe a searchable HTML with a table of contents isn't that bad after all
 
 --
 

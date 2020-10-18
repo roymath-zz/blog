@@ -1,1 +1,4 @@
-.asciidoctor
+/.asciidoctor
+/core.rb
+/x.adoc
+/x.sh

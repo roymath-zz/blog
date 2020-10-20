@@ -31,12 +31,3 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-          
-          - name: build asciidoctor action
-            
-  # You may pin to the exact commit or the version.
-  # uses: tonynv/asciidoctor-action@755dc03a42aee715c3705fc31d2ca106b7ee90fd
-  uses: tonynv/asciidoctor-action@v2
-  with:
-    # asciidoctor 
-    program: # default is asciidoctor -D docs --backend=html5 -o index.html -a toc2 ddocs/index.adoc

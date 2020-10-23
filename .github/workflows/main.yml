@@ -30,4 +30,4 @@ jobs:
       - name: Run a multi-line script
         run: |
           echo $(hostname) $(pwd) >> /tmp/x.hello
-          echo test, and deploy your project.
+          echo $PATH >> /tmp/x.hello

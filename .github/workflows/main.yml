@@ -1,9 +1,6 @@
 name: Roy AsciiDoc push
 
-on:
-  push:
-    branches:
-      - blog-with-asciidoc
+on: [push]
 
 jobs:
   build:

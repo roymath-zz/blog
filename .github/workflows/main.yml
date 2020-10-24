@@ -7,7 +7,20 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+<<<<<<< HEAD
       - name: generate asciidoc
         run: |
           make
           ls -l
+=======
+      # - name: generate asciidoc
+      #   run: |
+      #     make
+      - uses: ruby/setup-ruby@v1
+           with:
+             ruby-version: 2.7
+         - uses: reitzig/actions-asciidoctor@v2.0.0
+           with:
+             version: 2.0.10
+         - run: asciidoctor --version
+>>>>>>> b79b3f7... updates.

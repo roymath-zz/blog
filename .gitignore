@@ -2,7 +2,6 @@ _site/
 *.lock
 core.rb
 .asciidoctor/
-roy.adoc
 x.adoc
 x.sh
 JUNK

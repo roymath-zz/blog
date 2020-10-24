@@ -1,0 +1,40 @@
+= Sample diagram
+
+:stylesheet: Your_Chosen_Stylesheet.css
+
+++++
+<script src="https://darshandsoni.com/asciidoctor-skins/switcher.js" type="text/javascript"></script>
+
+<style>
+.col {-moz-column-count: 2;-webkit-column-count: 2;column-count: 2;}
+</style>
+++++
+
+[col]
+--
+Someone showed me that there was some hard-coded width in the result (cannot remember which line that was). Removing that produced a two column HTML, which was kind of ok. But, of course, in HTML the content goes down the full first column, which isn't what I wanted. For now I decided that maybe a searchable HTML with a table of contents isn't that bad after all
+Is This This ThisThis This ThisThis This This
+Multicolumn This This This
+textThis This ThisThis This ThisThis This ThisThis This ThisThis This ThisThis This ThisThis This ThisThis This ThisThis This ThisThis This ThisThis This This
+
+--
+
+[col]
+--
+This
+
+Is
+
+[plantuml, images/roy-lata, png]
+....
+roy -> lata : hey there
+....
+
+
+Multicolumn
+
+Someone, somewhere showed me that there was some hard-coded width in the result (cannot remember which line that was). Removing that produced a two column HTML, which was kind of ok. But, of course, in HTML the content goes down the full first column, which isn't what I wanted. For now I decided that maybe a searchable HTML with a table of contents isn't that bad after all
+
+--
+
+

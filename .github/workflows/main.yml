@@ -7,12 +7,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-<<<<<<< HEAD
-      - name: generate asciidoc
-        run: |
-          make
-          ls -l
-=======
       # - name: generate asciidoc
       #   run: |
       #     make
@@ -23,4 +17,3 @@ jobs:
            with:
              version: 2.0.10
          - run: asciidoctor --version
->>>>>>> b79b3f7... updates.

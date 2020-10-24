@@ -1,5 +1,10 @@
 = Sample diagram
 
+:heading-title: long heading \
+that I would like to \
+span over multiple lines \
+in the .adoc file
+
 :stylesheet: Your_Chosen_Stylesheet.css
 
 ++++
@@ -10,31 +15,33 @@
 </style>
 ++++
 
-[col]
---
-Someone showed me that there was some hard-coded width in the result (cannot remember which line that was). Removing that produced a two column HTML, which was kind of ok. But, of course, in HTML the content goes down the full first column, which isn't what I wanted. For now I decided that maybe a searchable HTML with a table of contents isn't that bad after all
-Is This This ThisThis This ThisThis This This
-Multicolumn This This This
-textThis This ThisThis This ThisThis This ThisThis This ThisThis This ThisThis This ThisThis This ThisThis This ThisThis This ThisThis This ThisThis This This
 
---
+:mylink: http://www.apache.org/licenses/LICENSE-2.0
 
-[col]
---
-This
+|===
+|Col1 | Col2
 
-Is
+a|
+image:images/roy-lata.png[link="{mylink}", width="140", title="roy say's click here"]
 
-[plantuml, images/roy-lata, png]
+|graphviz - 3
+
+|graphviz - 4
+
+a|
+[graphviz, images/graphviz_test_1, svg]
+[link="{mylink}", width="240"]
 ....
-roy -> lata : hey there
+digraph test {
+  rankdir="LR"
+  bgcolor="transparent"
+  size="1.5"
+  A -> e
+  B -> C
+  C -> D
+}
 ....
 
-
-Multicolumn
-
-Someone, somewhere showed me that there was some hard-coded width in the result (cannot remember which line that was). Removing that produced a two column HTML, which was kind of ok. But, of course, in HTML the content goes down the full first column, which isn't what I wanted. For now I decided that maybe a searchable HTML with a table of contents isn't that bad after all
-
---
+|===
 
 

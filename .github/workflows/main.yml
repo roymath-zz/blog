@@ -14,3 +14,4 @@ jobs:
         with:
           version: 2.0.10
       - run: make
+

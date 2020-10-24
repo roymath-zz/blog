@@ -1,0 +1,10 @@
+# tag::joe[]
+this is joe in snippets.adoc
+# end::joe[]
+
+# tag::jane[]
+this is jane in snippets.adoc
+# end::jane[]
+
+this is y.adoc
+

@@ -1,0 +1,2 @@
+this is articles/lata.adoc
+

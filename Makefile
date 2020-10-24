@@ -1,6 +1,12 @@
-all:
-	asciidoctor -vv -r asciidoctor-diagram roy.adoc -o index.html
+AD_ARGS = -r asciidoctor-diagram
 
-gem-install:
-	gem install asciidoctor-diagram
+all: index.html articles
+
+articles: articles/lata.html articles/sara.html articles/michelle.html
+
+%.html: %.adoc
+	asciidoctor $(AD_ARGS) $< -o $@
+
+# gem-install:
+# 	gem install asciidoctor-diagram
 

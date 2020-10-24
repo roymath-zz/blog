@@ -1,4 +1,5 @@
 = Sample diagram
+:icons: font
 
 :heading-title: long heading \
 that I would like to \
@@ -18,17 +19,19 @@ in the .adoc file
 
 :mylink: http://www.apache.org/licenses/LICENSE-2.0
 
+[frame=none]
 |===
 |Col1 | Col2
 
 a|
+plantuml diagram
 image:images/roy-lata.png[link="{mylink}", width="140", title="roy say's click here"]
 
 a|include::snippets.adoc[tag=joe]
 
 a|include::snippets.adoc[tag=jane]
 
-a|
+a|graphviz diagram
 [graphviz, images/graphviz_test_1, svg]
 [link="{mylink}", width="240"]
 ....
@@ -42,12 +45,12 @@ digraph test {
 }
 ....
 
-|lata
-|icon:download[link="articles/lata.html"]
-|sara
-|icon:download[link="articles/sara.html"]
-|michelle
-|icon:download[link="articles/michelle.html"]
+|link to lata article
+|icon:book[link="articles/lata.html"]
+|link to sara article
+|icon:book[link="articles/sara.html"]
+|link to michelle article
+|icon:book[link="articles/michelle.html"]
 
 |===
 

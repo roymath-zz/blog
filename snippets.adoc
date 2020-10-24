@@ -1,9 +1,9 @@
 # tag::joe[]
-this is joe in snippets.adoc
+a transcluded snippet tagged as "joe"
 # end::joe[]
 
 # tag::jane[]
-this is jane in snippets.adoc
+a transcluded snippet tagged as "jane"
 # end::jane[]
 
 this is y.adoc

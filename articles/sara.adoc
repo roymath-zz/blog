@@ -1,3 +1,9 @@
-
 this is articles/sara.adoc
+[plantuml, images/roy-lata-sara, png]
+....
+roy -> lata
+lata -> sara
+
+....
+
 

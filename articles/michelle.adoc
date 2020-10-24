@@ -1,1 +1,8 @@
 this is: articles/michelle.adoc
+[plantuml, images/roy-lata-michelle, png]
+....
+roy -> lata
+lata -> michelle
+
+....
+

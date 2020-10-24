@@ -24,9 +24,9 @@ in the .adoc file
 a|
 image:images/roy-lata.png[link="{mylink}", width="140", title="roy say's click here"]
 
-|graphviz - 3
+a|include::x.adoc[tag=joe]
 
-|graphviz - 4
+a|include::x.adoc[tag=jane]
 
 a|
 [graphviz, images/graphviz_test_1, svg]
@@ -43,5 +43,6 @@ digraph test {
 ....
 
 |===
+
 
 

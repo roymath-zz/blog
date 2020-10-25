@@ -1,4 +1,6 @@
-= Sample diagram
+= An illustrated blog about all things
+Roy Mathew
+
 :icons: font
 
 :heading-title: long heading \
@@ -55,4 +57,24 @@ digraph test {
 |===
 
 
+
+++++
+<div id="disqus_thread"></div>
+
+<script>
+var disqus_config = function () {
+this.page.url = 'file:///home/roy/Downloads/AsciiDoc.Trials/blog/index.html';
+this.page.identifier = 'index.html';
+};
+
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://anoobe.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+++++
 

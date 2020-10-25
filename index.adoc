@@ -21,10 +21,8 @@ in the .adoc file
 
 :mylink: http://www.apache.org/licenses/LICENSE-2.0
 
-[frame=none]
+[frame=none, cols="2"]
 |===
-|Col1 | Col2
-
 a|
 plantuml diagram
 image:images/roy-lata.png[link="{mylink}", width="140", title="roy say's click here"]

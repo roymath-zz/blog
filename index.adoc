@@ -63,7 +63,8 @@ digraph test {
 
 <script>
 var disqus_config = function () {
-this.page.url = 'file:///home/roy/Downloads/AsciiDoc.Trials/blog/index.html';
+
+this.page.url = 'https://blog.anoobe.com/index.html';
 this.page.identifier = 'index.html';
 };
 

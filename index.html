@@ -5,8 +5,8 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 2.0.10">
-<meta name="author" content="Roy Mathew">
-<title>An illustrated blog about all things</title>
+<meta name="author" content="(from the creative team at Anoobe)">
+<title>An illustrated blog</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
 /* Asciidoctor default stylesheet | MIT License | https://asciidoctor.org */
@@ -439,9 +439,9 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </head>
 <body class="article">
 <div id="header">
-<h1>An illustrated blog about all things</h1>
+<h1>An illustrated blog</h1>
 <div class="details">
-<span id="author" class="author">Roy Mathew</span><br>
+<span id="author" class="author">(from the creative team at Anoobe)</span><br>
 </div>
 </div>
 <div id="content">
@@ -458,8 +458,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p>plantuml diagram
-<span class="image"><a class="image" href="http://www.apache.org/licenses/LICENSE-2.0"><img src="images/roy-lata.png" alt="roy lata" width="140" title="roy say&#8217;s click here"></a></span></p>
+<p>included image: <span class="image"><a class="image" href="http://www.apache.org/licenses/LICENSE-2.0"><img src="images/roy-lata.png" alt="roy lata" width="140" title="roy say&#8217;s click here"></a></span></p>
 </div></div></td>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
 <p>a transcluded snippet tagged as "joe"</p>
@@ -470,7 +469,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p>a transcluded snippet tagged as "jane"</p>
 </div></div></td>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p>graphviz diagram</p>
+<p>included graphviz diagram (svg; transparent)</p>
 </div>
 <div class="imageblock">
 <div class="content">
@@ -480,18 +479,42 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">link to lata article</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon"><a class="image" href="articles/lata.html"><i class="fa fa-book"></i></a></span></p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">link to sara article</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon"><a class="image" href="articles/sara.html"><i class="fa fa-book"></i></a></span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">xyz <span class="icon"><a class="image" href="articles/lata.html"><i class="fa fa-book"></i></a></span> abc def</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">link to michelle article</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon"><a class="image" href="articles/michelle.html"><i class="fa fa-book"></i></a></span></p></td>
 </tr>
+<tr>
+<td class="tableblock halign-left valign-top" colspan="2"><div class="content"><div class="paragraph">
+<p>span 2-cols</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="gantt.svg" alt="gantt" width="784" height="196">
+</div>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ruby code</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">[source, ruby]
+----
+def do(x, y):
+  return 'haha'
+----</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">link to sara article</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon"><a class="image" href="articles/sara.html"><i class="fa fa-book"></i></a></span></p></td>
+</tr>
 </tbody>
 </table>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-ruby" data-lang="ruby">def do(x, y):
+  return 'haha'</code></pre>
+</div>
+</div>
 <div id="disqus_thread"></div>
 
 <script>
@@ -513,7 +536,7 @@ s.setAttribute('data-timestamp', +new Date());
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2020-10-25 09:10:37 -0400
+Last updated 2020-10-25 12:32:26 -0400
 </div>
 </div>
 </body>

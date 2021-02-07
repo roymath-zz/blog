@@ -23,3 +23,6 @@ pdf:
 svg-tidy:
 	svgo electrons.svg --disable=cleanupIDs -o electrons-x.svg
 
+touch:
+	find . -name "*.adoc" -exec touch {} \;
+

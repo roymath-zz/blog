@@ -4,7 +4,7 @@
 :icons: font
 
 :mylink: http://www.apache.org/licenses/LICENSE-2.0
-:imagesdir: ../images
+:imagesdir: ../../../images
 
 :heading-title: long heading \
 that I would like to \

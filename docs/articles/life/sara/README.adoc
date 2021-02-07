@@ -1,0 +1,13 @@
+= Sara
+
+:icons: font
+
+this is articles/life/sara/README.adoc
+[plantuml, images/roy-lata-sara, png]
+....
+roy -> lata
+lata -> sara
+
+....
+
+

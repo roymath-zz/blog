@@ -1,0 +1,10 @@
+:icons: font
+
+[frame=none, cols="2"]
+|===
+
+a|link:articles/life/index.html[icon:book[] articles on life] |
+a|link:articles/tech/index.html[icon:book[] articles about tech.] |
+
+|===
+

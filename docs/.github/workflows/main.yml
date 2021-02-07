@@ -1,0 +1,17 @@
+name: Roy AsciiDoc push
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.7
+      - uses: reitzig/actions-asciidoctor@v2.0.0
+        with:
+          version: 2.0.10
+      - run: make
+

@@ -1,0 +1,13 @@
+= Michelle
+
+:icons: font
+
+this is: articles/life/michelle/README.adoc
+[plantuml, images/roy-lata-michelle, png]
+....
+roy -> lata
+lata -> michelle
+
+....
+
+

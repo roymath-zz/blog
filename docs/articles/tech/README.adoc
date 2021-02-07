@@ -1,0 +1,12 @@
+= Technology related stuff
+
+:icons: font
+
+[frame=none, cols="2"]
+|===
+
+|link:samples/index.html[icon:book[] samples] |
+|link:electricity/index.html[icon:book[] how electricity flows] |
+
+|===
+

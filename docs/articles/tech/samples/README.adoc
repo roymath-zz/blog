@@ -1,0 +1,110 @@
+= AsciiDoc Samples
+(from the creative team at Anoobe)
+
+:icons: font
+
+:mylink: http://www.apache.org/licenses/LICENSE-2.0
+:imagesdir: ../images
+
+:heading-title: long heading \
+that I would like to \
+span over multiple lines \
+in the .adoc file
+
+
+// TODO: these don't work!
+// :linkcss:
+// link:adoc-link.adoc[]
+
+:stylesdir: css/
+:stylesheet: custom.css
+
+
+[frame=none, cols="2"]
+|===
+
+a|included image: image:roy-lata.png[link="{mylink}", width="140", title="roy say's click here"]
+a|include::snippets.adoc[tag=joe]
+
+a|include::snippets.adoc[tag=jane]
+a|
+included graphviz diagram (svg; transparent)
+[graphviz, graphviz_test_1, svg]
+[link="{mylink}", width="240"]
+....
+digraph test {
+  rankdir="LR"
+  bgcolor="transparent"
+  size="1.5"
+  A -> e
+  B -> C
+  C -> D
+}
+....
+
+
+|link to gsap animation
+|xyz image:astronaut-icon.svg[link="animation/index.html", text="astronaut"] abc def
+// |+++<img class="boxed" src="images/astronaut.svg"/>+++
+
+|link to michelle article
+|icon:book[link="articles/michelle.html"]
+
+2+a|
+span 2-cols
+[mermaid,gantt,svg]
+----
+gantt
+dateFormat  YYYY-MM-DD
+title Adding GANTT diagram to mermaid
+# excludes weekdays 2014-01-10
+
+section A section
+Completed task            :done,    des1, 2014-01-06,2014-01-08
+Active task               :active,  des2, 2014-01-09, 3d
+Future task               :         des3, after des2, 5d
+Future task2              :         des4, after des3, 5d
+----
+
+
+|ruby code
+|
+[source, ruby]
+----
+include::core.rb[tag=parse]
+----
+
+
+|link to sara article
+|icon:book[link="articles/sara.html"]
+
+|===
+
+[source, ruby]
+----
+include::core.rb[tag=parse]
+----
+
+
+++++
+<div id="disqus_thread"></div>
+
+<script>
+var disqus_config = function () {
+
+this.page.url = 'https://blog.anoobe.com/index.html';
+this.page.identifier = 'index.html';
+};
+
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://anoobe.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+++++
+
+

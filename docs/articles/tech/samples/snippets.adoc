@@ -1,0 +1,11 @@
+# tag::joe[]
+a transcluded snippet tagged as "joe"
+# end::joe[]
+
+# tag::jane[]
+a transcluded snippet tagged as "jane"
+# end::jane[]
+
+this is y.adoc
+
+

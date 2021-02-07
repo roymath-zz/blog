@@ -1,0 +1,14 @@
+= About life and living
+
+:icons: font
+
+[frame=none, cols="2"]
+|===
+
+|link:lata/index.html[icon:book[] lata] |
+|link:michelle/index.html[icon:book[] michelle] |
+|link:sara/index.html[icon:book[] sara] |
+
+|===
+
+

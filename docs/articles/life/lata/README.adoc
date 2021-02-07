@@ -1,0 +1,5 @@
+= Lata
+:icons: font
+
+this is articles/life/lata/README.adoc
+

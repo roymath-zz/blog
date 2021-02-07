@@ -1,4 +1,4 @@
-AD_ARGS = -r asciidoctor-diagram -a linkcss -a stylesheet=asciidoctor.css -a stylesdir=$(PWD)/css
+AD_ARGS = -r asciidoctor-diagram -a linkcss -a stylesheet=/css/asciidoctor.css -a stylesdir=$(PWD)/css
 # AD_ARGS = -r asciidoctor-diagram
 
 all: articles

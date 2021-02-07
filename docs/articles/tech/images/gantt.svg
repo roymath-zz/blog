@@ -1,0 +1,105 @@
+<svg id='mermaid-1612704816962' width='100%' xmlns='http://www.w3.org/2000/svg' height='100%' viewBox='0 0 784 196' preserveAspectRatio='xMidYMid meet'>
+  <style>
+    #mermaid-1612704816962 .label{font-family:trebuchet
+    ms,verdana,arial;color:#333}#mermaid-1612704816962 .node
+    circle,#mermaid-1612704816962 .node ellipse,#mermaid-1612704816962 .node
+    polygon,#mermaid-1612704816962 .node
+    rect{fill:#ececff;stroke:#9370db;stroke-width:1px}#mermaid-1612704816962
+    .node.clickable{cursor:pointer}#mermaid-1612704816962
+    .arrowheadPath{fill:#333}#mermaid-1612704816962 .edgePath
+    .path{stroke:#333;stroke-width:1.5px}#mermaid-1612704816962
+    .edgeLabel{background-color:#e8e8e8}#mermaid-1612704816962 .cluster
+    rect{fill:#ffffde!important;stroke:#aa3!important;stroke-width:1px!important}#mermaid-1612704816962 .cluster text{fill:#333}#mermaid-1612704816962 div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:trebuchet ms,verdana,arial;font-size:12px;background:#ffffde;border:1px solid #aa3;border-radius:2px;pointer-events:none;z-index:100}#mermaid-1612704816962 .actor{stroke:#ccf;fill:#ececff}#mermaid-1612704816962 text.actor{fill:#000;stroke:none}#mermaid-1612704816962 .actor-line{stroke:grey}#mermaid-1612704816962 .messageLine0{marker-end:"url(#arrowhead)"}#mermaid-1612704816962 .messageLine0,#mermaid-1612704816962 .messageLine1{stroke-width:1.5;stroke-dasharray:"2 2";stroke:#333}#mermaid-1612704816962 #arrowhead{fill:#333}#mermaid-1612704816962 #crosshead path{fill:#333!important;stroke:#333!important}#mermaid-1612704816962 .messageText{fill:#333;stroke:none}#mermaid-1612704816962 .labelBox{stroke:#ccf;fill:#ececff}#mermaid-1612704816962 .labelText,#mermaid-1612704816962 .loopText{fill:#000;stroke:none}#mermaid-1612704816962 .loopLine{stroke-width:2;stroke-dasharray:"2 2";marker-end:"url(#arrowhead)";stroke:#ccf}#mermaid-1612704816962 .note{stroke:#aa3;fill:#fff5ad}#mermaid-1612704816962 .noteText{fill:#000;stroke:none;font-family:trebuchet ms,verdana,arial;font-size:14px}#mermaid-1612704816962 .section{stroke:none;opacity:.2}#mermaid-1612704816962 .section0{fill:rgba(102,102,255,.49)}#mermaid-1612704816962 .section2{fill:#fff400}#mermaid-1612704816962 .section1,#mermaid-1612704816962 .section3{fill:#fff;opacity:.2}#mermaid-1612704816962 .sectionTitle0,#mermaid-1612704816962 .sectionTitle1,#mermaid-1612704816962 .sectionTitle2,#mermaid-1612704816962 .sectionTitle3{fill:#333}#mermaid-1612704816962 .sectionTitle{text-anchor:start;font-size:11px;text-height:14px}#mermaid-1612704816962 .grid .tick{stroke:#d3d3d3;opacity:.3;shape-rendering:crispEdges}#mermaid-1612704816962 .grid path{stroke-width:0}#mermaid-1612704816962 .today{fill:none;stroke:red;stroke-width:2px}#mermaid-1612704816962 .task{stroke-width:2}#mermaid-1612704816962 .taskText{text-anchor:middle;font-size:11px}#mermaid-1612704816962 .taskTextOutsideRight{fill:#000;text-anchor:start;font-size:11px}#mermaid-1612704816962 .taskTextOutsideLeft{fill:#000;text-anchor:end;font-size:11px}#mermaid-1612704816962 .taskText0,#mermaid-1612704816962 .taskText1,#mermaid-1612704816962 .taskText2,#mermaid-1612704816962 .taskText3{fill:#fff}#mermaid-1612704816962 .task0,#mermaid-1612704816962 .task1,#mermaid-1612704816962 .task2,#mermaid-1612704816962 .task3{fill:#8a90dd;stroke:#534fbc}#mermaid-1612704816962 .taskTextOutside0,#mermaid-1612704816962 .taskTextOutside1,#mermaid-1612704816962 .taskTextOutside2,#mermaid-1612704816962 .taskTextOutside3{fill:#000}#mermaid-1612704816962 .active0,#mermaid-1612704816962 .active1,#mermaid-1612704816962 .active2,#mermaid-1612704816962 .active3{fill:#bfc7ff;stroke:#534fbc}#mermaid-1612704816962 .activeText0,#mermaid-1612704816962 .activeText1,#mermaid-1612704816962 .activeText2,#mermaid-1612704816962 .activeText3{fill:#000!important}#mermaid-1612704816962 .done0,#mermaid-1612704816962 .done1,#mermaid-1612704816962 .done2,#mermaid-1612704816962 .done3{stroke:grey;fill:#d3d3d3;stroke-width:2}#mermaid-1612704816962 .doneText0,#mermaid-1612704816962 .doneText1,#mermaid-1612704816962 .doneText2,#mermaid-1612704816962 .doneText3{fill:#000!important}#mermaid-1612704816962 .crit0,#mermaid-1612704816962 .crit1,#mermaid-1612704816962 .crit2,#mermaid-1612704816962 .crit3{stroke:#f88;fill:red;stroke-width:2}#mermaid-1612704816962 .activeCrit0,#mermaid-1612704816962 .activeCrit1,#mermaid-1612704816962 .activeCrit2,#mermaid-1612704816962 .activeCrit3{stroke:#f88;fill:#bfc7ff;stroke-width:2}#mermaid-1612704816962 .doneCrit0,#mermaid-1612704816962 .doneCrit1,#mermaid-1612704816962 .doneCrit2,#mermaid-1612704816962 .doneCrit3{stroke:#f88;fill:#d3d3d3;stroke-width:2;cursor:pointer;shape-rendering:crispEdges}#mermaid-1612704816962 .activeCritText0,#mermaid-1612704816962 .activeCritText1,#mermaid-1612704816962 .activeCritText2,#mermaid-1612704816962 .activeCritText3,#mermaid-1612704816962 .doneCritText0,#mermaid-1612704816962 .doneCritText1,#mermaid-1612704816962 .doneCritText2,#mermaid-1612704816962 .doneCritText3{fill:#000!important}#mermaid-1612704816962 .titleText{text-anchor:middle;font-size:18px;fill:#000}#mermaid-1612704816962 g.classGroup text{fill:#9370db;stroke:none;font-family:trebuchet ms,verdana,arial;font-size:10px}#mermaid-1612704816962 g.classGroup rect{fill:#ececff;stroke:#9370db}#mermaid-1612704816962 g.classGroup line{stroke:#9370db;stroke-width:1}#mermaid-1612704816962 .classLabel .box{stroke:none;stroke-width:0;fill:#ececff;opacity:.5}#mermaid-1612704816962 .classLabel .label{fill:#9370db;font-size:10px}#mermaid-1612704816962 .relation{stroke:#9370db;stroke-width:1;fill:none}#mermaid-1612704816962 #compositionEnd,#mermaid-1612704816962 #compositionStart{fill:#9370db;stroke:#9370db;stroke-width:1}#mermaid-1612704816962 #aggregationEnd,#mermaid-1612704816962 #aggregationStart{fill:#ececff;stroke:#9370db;stroke-width:1}#mermaid-1612704816962 #dependencyEnd,#mermaid-1612704816962 #dependencyStart,#mermaid-1612704816962 #extensionEnd,#mermaid-1612704816962 #extensionStart{fill:#9370db;stroke:#9370db;stroke-width:1}#mermaid-1612704816962 .branch-label,#mermaid-1612704816962 .commit-id,#mermaid-1612704816962 .commit-msg{fill:#d3d3d3;color:#d3d3d3}
+  </style>
+  <style>
+    #mermaid-1612704816962 { color: rgb(0, 0, 0); font: normal normal 400 normal
+    16px / normal "Times New Roman"; }
+  </style>
+  <g/>
+  <g class='grid' transform='translate(75, 146)' fill='none' font-size='10' font-family='sans-serif' text-anchor='middle'>
+    <path class='domain' stroke='#000' d='M0.5,-111V0.5H634.5V-111'/>
+    <g class='tick' opacity='1' transform='translate(40.5,0)'>
+      <line stroke='#000' y2='-111'/>
+      <text fill='#000' y='3' dy='1em' stroke='none' font-size='10' style='text-anchor: middle;'>
+        2014-01-07
+      </text>
+    </g>
+    <g class='tick' opacity='1' transform='translate(119.5,0)'>
+      <line stroke='#000' y2='-111'/>
+      <text fill='#000' y='3' dy='1em' stroke='none' font-size='10' style='text-anchor: middle;'>
+        2014-01-09
+      </text>
+    </g>
+    <g class='tick' opacity='1' transform='translate(198.5,0)'>
+      <line stroke='#000' y2='-111'/>
+      <text fill='#000' y='3' dy='1em' stroke='none' font-size='10' style='text-anchor: middle;'>
+        2014-01-11
+      </text>
+    </g>
+    <g class='tick' opacity='1' transform='translate(277.5,0)'>
+      <line stroke='#000' y2='-111'/>
+      <text fill='#000' y='3' dy='1em' stroke='none' font-size='10' style='text-anchor: middle;'>
+        2014-01-13
+      </text>
+    </g>
+    <g class='tick' opacity='1' transform='translate(357.5,0)'>
+      <line stroke='#000' y2='-111'/>
+      <text fill='#000' y='3' dy='1em' stroke='none' font-size='10' style='text-anchor: middle;'>
+        2014-01-15
+      </text>
+    </g>
+    <g class='tick' opacity='1' transform='translate(436.5,0)'>
+      <line stroke='#000' y2='-111'/>
+      <text fill='#000' y='3' dy='1em' stroke='none' font-size='10' style='text-anchor: middle;'>
+        2014-01-17
+      </text>
+    </g>
+    <g class='tick' opacity='1' transform='translate(515.5,0)'>
+      <line stroke='#000' y2='-111'/>
+      <text fill='#000' y='3' dy='1em' stroke='none' font-size='10' style='text-anchor: middle;'>
+        2014-01-19
+      </text>
+    </g>
+    <g class='tick' opacity='1' transform='translate(594.5,0)'>
+      <line stroke='#000' y2='-111'/>
+      <text fill='#000' y='3' dy='1em' stroke='none' font-size='10' style='text-anchor: middle;'>
+        2014-01-21
+      </text>
+    </g>
+  </g>
+  <g>
+    <rect x='0' y='48' width='746.5' height='24' class='section section0'/>
+    <rect x='0' y='72' width='746.5' height='24' class='section section0'/>
+    <rect x='0' y='96' width='746.5' height='24' class='section section0'/>
+    <rect x='0' y='120' width='746.5' height='24' class='section section0'/>
+  </g>
+  <g>
+    <rect rx='3' ry='3' x='75' y='50' width='79' height='20' class='task  done0'/>
+    <rect rx='3' ry='3' x='194' y='74' width='119' height='20' class='task  active0'/>
+    <rect rx='3' ry='3' x='313' y='98' width='198' height='20' class='task  task0'/>
+    <rect rx='3' ry='3' x='511' y='122' width='198' height='20' class='task  task0'/>
+    <text font-size='11' x='114.5' y='63.5' text-height='20' class='taskText taskText0  doneText0'>
+      Completed task 
+    </text>
+    <text font-size='11' x='253.5' y='87.5' text-height='20' class='taskText taskText0 activeText0'>
+      Active task 
+    </text>
+    <text font-size='11' x='412' y='111.5' text-height='20' class='taskText taskText0 '>
+      Future task 
+    </text>
+    <text font-size='11' x='610' y='135.5' text-height='20' class='taskText taskText0 '>
+      Future task2 
+    </text>
+  </g>
+  <g>
+    <text x='10' y='98' class='sectionTitle sectionTitle0'>
+      A section
+    </text>
+  </g>
+  <g class='today'>
+    <line x1='102678' x2='102678' y1='25' y2='171' class='today'/>
+  </g>
+  <text x='392' y='25' class='titleText'>
+    Adding GANTT diagram to mermaid
+  </text>
+</svg>

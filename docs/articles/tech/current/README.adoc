@@ -1,0 +1,12 @@
+= Current articles
+
+:icons: font
+
+[frame=none, cols="2"]
+|===
+
+|link:samples/index.html[icon:book[] current samples] |
+|link:electricity/index.html[icon:book[] current how electricity flows] |
+
+|===
+

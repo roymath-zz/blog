@@ -1,1 +1,3 @@
-div {border: solid 1px red}
+@import url(asciidoctor.css);
+
+div {border: solid 1px blue }

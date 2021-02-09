@@ -4,7 +4,7 @@
 :icons: font
 
 :mylink: http://www.apache.org/licenses/LICENSE-2.0
-:imagesdir: ../../../images
+:imagesdir: images
 
 :heading-title: long heading \
 that I would like to \
@@ -12,11 +12,6 @@ span over multiple lines \
 in the .adoc file
 
 
-// TODO: these don't work!
-// :linkcss:
-// link:adoc-link.adoc[]
-
-:stylesdir: css/
 :stylesheet: custom.css
 
 

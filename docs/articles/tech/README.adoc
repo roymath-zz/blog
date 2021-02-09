@@ -6,7 +6,7 @@
 |===
 
 |link:samples/index.html[icon:book[] samples] |
-|link:electricity/index.html[icon:book[] how electricity flows] |
+|link:html-to-kindle/index.html[icon:book[] html to kindle] |
 
 |===
 

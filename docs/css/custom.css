@@ -1,3 +1,4 @@
-@import url(asciidoctor.css);
+@import url(css/asciidoctor.css);
 
-div {border: solid 1px blue }
+/* p {border: solid 1px gray} */
+ul li p {margin: 0}

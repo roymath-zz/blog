@@ -1,13 +1,16 @@
 # AD_ARGS = -r asciidoctor-diagram -a linkcss -a stylesheet=/css/asciidoctor.css -a stylesdir=$(PWD)/css
-AD_ARGS = -r asciidoctor-diagram -a linkcss -a stylesdir=$(PWD)/css
+AD_ARGS = -r asciidoctor-diagram -a stylesdir=$(PWD)/css
 
 all: articles
 
 articles: $(PWD)/index.html
 articles: articles/index.html
-articles: articles/life/index.html articles/tech/index.html
-articles: articles/tech/samples/index.html articles/tech/electricity/index.html
-articles: articles/life/lata/index.html articles/life/sara/index.html articles/life/michelle/index.html
+articles: articles/tech/index.html
+articles: articles/tech/samples/index.html
+articles: articles/tech/html-to-kindle/index.html
+
+# articles: articles/life/index.html
+# articles: articles/life/lata/index.html articles/life/sara/index.html articles/life/michelle/index.html
 
 # index.html: snippets.adoc
 

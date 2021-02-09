@@ -2,6 +2,6 @@
 :stylesheet: custom.css
 
 
-* link:articles/tech/current/kindle-html/index.html[icon:book[] reading html on a kindle.]
+* link:articles/tech/html-to-kindle/index.html[icon:book[] reading html on a kindle.]
 * link:articles/tech/current/yogurt/index.html[icon:book[] making yogurt at home.]
 

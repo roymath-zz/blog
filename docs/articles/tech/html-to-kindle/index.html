@@ -459,7 +459,7 @@ linux command line, so they render nicely on the kindle.  The native
 file format for the kindle is <code>.mobi</code>, and we&#8217;ll use amazon&#8217;s
 <strong>kindlegen</strong> utility to convert files directly from <code>.html</code> to <code>.mobi</code>.</p>
 </div>
-<table class="tableblock frame-all grid-all stretch">
+<table class="tableblock frame-none grid-none stretch">
 <colgroup>
 <col style="width: 33.3333%;">
 <col style="width: 33.3333%;">
@@ -717,31 +717,6 @@ it’s screen looks as shown here.</p>
 </div></div></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-middle" colspan="3"><div class="content"><div class="paragraph">
-<p>The last few lines of your system logs (<code>dmesg</code>) should also indicate whether
-the USB device has been recognized. Mine looks as shown below.</p>
-</div></div></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-middle" colspan="3"><div class="content"><div class="listingblock">
-<div class="title">dmesg output - notice USB is detected as <strong>sdb</strong></div>
-<div class="content">
-<pre class="highlight"><code class="language-shell" data-lang="shell">[root@manjaro ~]# dmesg | tail
-usb 1-2: Product: Internal Storage
-usb 1-2: SerialNumber: G000WL04928401JC
-...
-usb-storage 1-2:1.0: USB Mass Storage device detected
-...
-scsi host9: usb-storage 1-2:1.0
-scsi 9:0:0:0: Direct-Access     Kindle   Internal Storage 0401 PQ: 0 ANSI: 2
-sd 9:0:0:0: Power-on or device reset occurred
-sd 9:0:0:0: [sdb] Attached SCSI removable disk
-sd 9:0:0:0: [sdb] 13051821 512-byte logical blocks: (6.68 GB/6.22 GiB)
-sd 9:0:0:0: [sdb] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA</code></pre>
-</div>
-</div></div></td>
-</tr>
-<tr>
 <td class="tableblock halign-left valign-middle"><div class="content"><div class="paragraph">
 <p>You can tell from your computer by running <code>lsblk</code>, if the USB device
 has been recognized. See below for the listing.</p>
@@ -763,6 +738,31 @@ sda                         8:0    0 931.5G  0 disk
   ├─vg-home               254:4    0    34G  0 lvm  /home
 sdb                         8:16   1   6.2G  0 disk
 sr0                        11:0    1  1024M  0 rom</code></pre>
+</div>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle" colspan="3"><div class="content"><div class="paragraph">
+<p>The last few lines of your system logs (<code>dmesg</code>) should also indicate whether
+the USB device has been recognized. Mine looks as shown below.</p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle" colspan="3"><div class="content"><div class="listingblock">
+<div class="title">dmesg output - notice USB is detected as <strong>sdb</strong></div>
+<div class="content">
+<pre class="highlight"><code class="language-shell" data-lang="shell">[root@manjaro ~]# dmesg | tail
+usb 1-2: Product: Internal Storage
+usb 1-2: SerialNumber: G000WL04928401JC
+...
+usb-storage 1-2:1.0: USB Mass Storage device detected
+...
+scsi host9: usb-storage 1-2:1.0
+scsi 9:0:0:0: Direct-Access     Kindle   Internal Storage 0401 PQ: 0 ANSI: 2
+sd 9:0:0:0: Power-on or device reset occurred
+sd 9:0:0:0: [sdb] Attached SCSI removable disk
+sd 9:0:0:0: [sdb] 13051821 512-byte logical blocks: (6.68 GB/6.22 GiB)
+sd 9:0:0:0: [sdb] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA</code></pre>
 </div>
 </div></div></td>
 </tr>
@@ -831,7 +831,7 @@ it.</p>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2021-02-16 19:29:48 UTC
+Last updated 2021-02-16 19:33:27 UTC
 </div>
 </div>
 </body>

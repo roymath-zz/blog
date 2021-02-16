@@ -1,0 +1,182 @@
+// generated from ~/git-dir/Blogging/Literate-Programming/blogging-in-asciidoc.nw
+
+:imagesdir: Images
+:figure-caption: Fig
+
+## Motivation
+
+Often, I find myself reading technical documentation in html.
+For the longer ones, I prefer reading on the kindle.  An
+e-ink display is much easier on your eyes. It's even better
+when you step outside - the contrast only improves, affording you a
+book-like experience. Compare this with tablets that
+make you squint to see past the glare of their glossy screens.
+
+This article is about how you can convert html documents, using the
+linux command line, so they render nicely on the kindle.  The native
+file format for the kindle is `.mobi`, and we'll use amazon's
+*kindlegen* utility to convert files directly from `.html` to `.mobi`.
+
+
+// [cols=3]
+[cols="<.^,<.^,<.^"]
+[frame="none", grid="none"]
+|=======
+a|image::html.png[alt="lata smiles",width=300,title="kindle browser: web view"]
+a|
+### Reading on the kindle browser
+
+The kindle comes with a built-in browser. It has been considered
+_experimental_ for at least 10 years, but don't mind that - it does a
+pretty good job of rendering html. In _article_ mode, it gives you a
+nicer full-text view. This view is quite readable, and fairly suitable
+for smaller articles. There are some quirks however, the main one
+being that you have to remain online to be able to browse, since you
+cannot save the content to the kindle.
+
+a|image::article-mode.png[alt="lata smiles",width=300,title="kindle browser: article mode"]
+
+a|
+### Reading in pdf
+
+You can read PDFs directly on your Kindle - however given the smaller
+screen size, the document tends to render somewhat smaller, and it’s
+not ideal for reading.
+
+a|image::pdf-landscape.png[alt="lata smiles",width=300,title="pdf: landscape view"]
+a|image::pdf-portrait.png[alt="lata smiles",width=300,title="pdf: portrait view"]
+
+a|image::mobi.png[alt="lata smiles",width=300,title="Kindle Native (.mobi) view"]
+2+a|
+### Advantages of the `.mobi` format
+
+Like HTML, `.mobi` files are flexible in how the page resizes
+as you change the layout or font-size. You can make the font
+quite large - great for tired eyes. The conversion to
+`.mobi` from `.html` does a good job of keeping much of the 
+html semantics - bold, italic, sections, paragraphs, etc..
+so that the converted pages tend to look like they were
+designed to be read on the kindle.
+
+
+2+a|
+### Smaller screen, keyhole view
+
+Most books are meant to be read sequentially. As you're reading, you
+tend to develop a very focused "keyhole" view of the content. Once you
+get used to this, the kindle's limited display seems to be quite
+adequate, and offers a distraction free reading experience.
+
+a|image::keyhole-view.png[alt="lata smiles",width=300]
+
+a|image::pdf-view.png[alt="lata smiles",width=300]
+2+a|
+### Cons
+
+The display is kind of small, especially with the kindle touch. I
+recently bought an oasis for the slightly larger (7 inch) display.
+My thought is that screen size doesn't matter as much as one assumes.
+Our craving for larger displays stems at least partly, from
+the fact that we stare at big monitors all day and are used to seeing
+the entirety of our pages when browsing.
+
+
+2+a|
+### Calibre and friends
+
+I’ve used Calibre to do the conversions from html to `.mobi` format,
+but I find it to be a rather heavy weight application for my
+needs. Having said that, it’s a veritable swiss army knife for all
+things related to reading and managing content on mobile devices, and
+is well regarded.
+
+a|image::calibre-connect.png[alt="lata smiles",width=300, title="Calibre UI"]
+
+a|image::pdf-view.png[alt="lata smiles",width=300]
+2+a|
+### Pandoc and markdown
+
+You can use pandoc to convert HTML to a canonical pandoc format. From
+there you can go to `.mobi` or epub format. However I think *kindlegen*
+offers a more direct path from `.html` to `.mobi`.
+
+This article is written in *asciidoc* format, using *asciidoctor*, a
+phenomenal tool that is lightweight, yet has enough of the features
+to create a rich presentation.
+
+
+2+a|
+### Kindlegen
+
+*kindlegen* is available as a binary download from Amazon.
+Discuss kindlegen command line options
+
+a|image::pdf-view.png[alt="lata smiles",width=300]
+
+a|image::pdf-view.png[alt="lata smiles",width=300]
+2+a|
+### Copying files via USB
+
+Once you’ve created your`.mobi` format, you can transfer the files over
+to your Kindle. Basically this means
+
+1. plugging in your Kindle to a USB port
+2. Have your computer recognize the kindle as an external USB drive.
+3. copy files over
+4. eject (unmount) the kindle.
+
+There are two kinds of USB cables
+
+1. A two wire cable that is designed to only charge your device
+2. A four wire cable that can provide both charge and data transfer to the USB device.
+
+I was surprised about this. I had assumed all USB cables were the
+same, and recall having been occasionally frustrated in the past when
+some USB cables didn’t seem to work. Now I know.
+
+You can tell that your Kindle has been recognized as a USB device when
+it’s screen looks as follows – show screenshot
+
+No easy way to look at the USB cable wire and tell if it’s a two wire
+or four wire connector.
+
+You can tell from your computer by running lsblk, if the USB device
+has been recognized. The format should look as follows:
+
+The last few lines of your system logs should also indicate whether
+the USB device has been recognized. Mine looks as follows
+
+You’ll want to mount the USB device in order to be able to transfer files; use the following incantations:
+
+I've read that the `usbmount` program can be set up to automatically mount devices. I haven’t had much luck with it.
+
+`Gnome automount` is another possibility for auto mounting. I haven’t much experience with this either.
+
+The simplest way is to manually mount the device.
+
+Once you’ve transferred the file over to the device, you'll want to
+eject it. If you unplug the cable prematurely, you may end up with a
+partially copied file, and the kindle will complain that it can’t read
+it.
+
+
+
+2+a|
+### Alternatives
+
+There are nicer e-ink tablets with larger (10+ inch) displays; they will
+cost you somewhere in the $500-$800 range. They tend to have
+additional features geared toward marking up text, sketching, etc.
+
+Your average kindle touch sells for about USD 100, and the oasis is
+closer to about USD 300.
+Amazon was offering a trade-in allowance on my
+older kindle, so I took advantage of that, and paid closer to $200.
+My primary need is reading, and the 7" Kindle
+Oasis does nicely for that. 
+
+a|image::other-tablets.png[alt="lata smiles",width=300,title="Larger devices"]
+
+|=======
+
+

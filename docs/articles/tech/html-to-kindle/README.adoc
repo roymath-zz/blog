@@ -20,9 +20,9 @@ file format for the kindle is `.mobi`, and we'll use amazon's
 
 // [cols=3]
 [cols="<.^,<.^,<.^"]
-[frame="none", grid="none"]
+// [frame="none", grid="none"]
 |=======
-a|image::html.png[alt="lata smiles",width=300,title="kindle browser: web view"]
+a|image::html.png[width=300,title="kindle browser: web view"]
 a|
 ### Reading on the kindle browser
 
@@ -34,7 +34,7 @@ for smaller articles. There are some quirks however, the main one
 being that you have to remain online to be able to browse, since you
 cannot save the content to the kindle.
 
-a|image::article-mode.png[alt="lata smiles",width=300,title="kindle browser: article mode"]
+a|image::article-mode.png[width=300,title="kindle browser: article mode"]
 
 a|
 ### Reading in pdf
@@ -43,10 +43,10 @@ You can read PDFs directly on your Kindle - however given the smaller
 screen size, the document tends to render somewhat smaller, and it’s
 not ideal for reading.
 
-a|image::pdf-landscape.png[alt="lata smiles",width=300,title="pdf: landscape view"]
-a|image::pdf-portrait.png[alt="lata smiles",width=300,title="pdf: portrait view"]
+a|image::pdf-landscape.png[width=300,title="pdf: landscape view"]
+a|image::pdf-portrait.png[width=300,title="pdf: portrait view"]
 
-a|image::mobi.png[alt="lata smiles",width=300,title="Kindle Native (.mobi) view"]
+a|image::mobi.png[width=300,title="Kindle Native (.mobi) view"]
 2+a|
 ### Advantages of the `.mobi` format
 
@@ -62,24 +62,21 @@ designed to be read on the kindle.
 2+a|
 ### Smaller screen, keyhole view
 
-Most books are meant to be read sequentially. As you're reading, you
-tend to develop a very focused "keyhole" view of the content. Once you
-get used to this, the kindle's limited display seems to be quite
-adequate, and offers a distraction free reading experience.
+Our craving for larger displays stems at least partly, from the fact
+that we stare at big monitors all day and are used to seeing the
+entirety of our pages when browsing.
 
-a|image::keyhole-view.png[alt="lata smiles",width=300]
+The average kindle display is a relatively small 6 inches. I
+bought an oasis for the slightly larger (7 inch) display, and it
+does make a difference.
 
-a|image::pdf-view.png[alt="lata smiles",width=300]
-2+a|
-### Cons
+Most books and lengthy papers are meant to be read sequentially. As
+you progress, you tend to develop a very focused "keyhole" view of
+the content. Once you get used to this, the kindle's limited display
+seems to be quite adequate, and offers a distraction free reading
+experience.
 
-The display is kind of small, especially with the kindle touch. I
-recently bought an oasis for the slightly larger (7 inch) display.
-My thought is that screen size doesn't matter as much as one assumes.
-Our craving for larger displays stems at least partly, from
-the fact that we stare at big monitors all day and are used to seeing
-the entirety of our pages when browsing.
-
+a|image::keyhole-view.png[width=300]
 
 2+a|
 ### Calibre and friends
@@ -90,9 +87,9 @@ needs. Having said that, it’s a veritable swiss army knife for all
 things related to reading and managing content on mobile devices, and
 is well regarded.
 
-a|image::calibre-connect.png[alt="lata smiles",width=300, title="Calibre UI"]
+a|image::calibre-connect.png[width=300, title="Calibre UI"]
 
-a|image::pdf-view.png[alt="lata smiles",width=300]
+a|image::pdf-view.png[width=300]
 2+a|
 ### Pandoc and markdown
 
@@ -111,55 +108,7 @@ to create a rich presentation.
 *kindlegen* is available as a binary download from Amazon.
 Discuss kindlegen command line options
 
-a|image::pdf-view.png[alt="lata smiles",width=300]
-
-a|image::pdf-view.png[alt="lata smiles",width=300]
-2+a|
-### Copying files via USB
-
-Once you’ve created your`.mobi` format, you can transfer the files over
-to your Kindle. Basically this means
-
-1. plugging in your Kindle to a USB port
-2. Have your computer recognize the kindle as an external USB drive.
-3. copy files over
-4. eject (unmount) the kindle.
-
-There are two kinds of USB cables
-
-1. A two wire cable that is designed to only charge your device
-2. A four wire cable that can provide both charge and data transfer to the USB device.
-
-I was surprised about this. I had assumed all USB cables were the
-same, and recall having been occasionally frustrated in the past when
-some USB cables didn’t seem to work. Now I know.
-
-You can tell that your Kindle has been recognized as a USB device when
-it’s screen looks as follows – show screenshot
-
-No easy way to look at the USB cable wire and tell if it’s a two wire
-or four wire connector.
-
-You can tell from your computer by running lsblk, if the USB device
-has been recognized. The format should look as follows:
-
-The last few lines of your system logs should also indicate whether
-the USB device has been recognized. Mine looks as follows
-
-You’ll want to mount the USB device in order to be able to transfer files; use the following incantations:
-
-I've read that the `usbmount` program can be set up to automatically mount devices. I haven’t had much luck with it.
-
-`Gnome automount` is another possibility for auto mounting. I haven’t much experience with this either.
-
-The simplest way is to manually mount the device.
-
-Once you’ve transferred the file over to the device, you'll want to
-eject it. If you unplug the cable prematurely, you may end up with a
-partially copied file, and the kindle will complain that it can’t read
-it.
-
-
+a|image::pdf-view.png[width=300]
 
 2+a|
 ### Alternatives
@@ -175,8 +124,138 @@ older kindle, so I took advantage of that, and paid closer to $200.
 My primary need is reading, and the 7" Kindle
 Oasis does nicely for that. 
 
-a|image::other-tablets.png[alt="lata smiles",width=300,title="Larger devices"]
+a|image::other-tablets.png[width=300,title="Larger devices"]
+
+3+a|
+### Copying files via USB
+
+Once you’ve created your`.mobi` format, you can transfer the files over
+to your Kindle. Basically this means
+
+. plugging in your Kindle to a USB port
+. Have your computer recognize the kindle as an external USB drive.
+. copy files over
+. eject (unmount) the kindle.
+
+
+a|image::need-image-here.png[width=300,title="need title"]
+2+a|
+### About usb cables
+
+There are two kinds of USB cables
+
+. A two wire cable that is designed to only charge your device
+. A four wire cable that can provide both charge and data transfer to the USB device.
+
+I was surprised about this. I had assumed all USB cables were the
+same, and recall having been occasionally frustrated in the past when
+some USB cables didn’t seem to work. Now I know.
+
+No easy way to look at the USB cable wire and tell if it’s a two wire
+or four wire connector.
+
+
+
+3+a|
+### Having your computer recognize the USB drive
+
+You can tell that your Kindle has been recognized as a USB device when
+it’s screen looks as follows – show screenshot
+
+You can tell from your computer by running lsblk, if the USB device
+has been recognized. The format should look as follows:
+
+The last few lines of your system logs should also indicate whether
+the USB device has been recognized. Mine looks as follows
+
+
+
+3+a|
+.lsblk output - notice USB is detected as *sdb* 
+[#src-listing] 
+[source,shell]  
+---- 
+[root@manjaro ~]# dmesg \| tail
+[604395.881996] usb 1-2: Product: Internal Storage
+[604395.881997] usb 1-2: SerialNumber: G000WL04928401JC
+...
+[604395.892038] usb-storage 1-2:1.0: USB Mass Storage device detected
+...
+[604395.892423] scsi host9: usb-storage 1-2:1.0
+[604396.910467] scsi 9:0:0:0: Direct-Access     Kindle   Internal Storage 0401 PQ: 0 ANSI: 2
+[604396.911029] sd 9:0:0:0: Power-on or device reset occurred
+[604396.952671] sd 9:0:0:0: [sdb] Attached SCSI removable disk
+[604396.961627] sd 9:0:0:0: [sdb] 13051821 512-byte logical blocks: (6.68 GB/6.22 GiB)
+[604397.176540] sd 9:0:0:0: [sdb] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+
+---- 
+
+.dmesg output - *sdb* shows up as a block device
+[#src-listing] 
+[source,shell]  
+---- 
+[root@manjaro ~]# lsblk
+NAME                      MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sda                         8:0    0 931.5G  0 disk 
+├─sda1                      8:1    0   260M  0 part /boot/efi
+├─sda8                      8:8    0  97.7G  0 part 
+│ ├─vg-home               254:4    0    34G  0 lvm  /home
+│ ├─vg-cdroms             254:6    0    20G  0 lvm  /cdroms
+├─sda9                      8:9    0    20G  0 part 
+│ └─kvm--storage-machines 254:3    0    20G  0 lvm  /mnts/kvm-storage
+├─sda10                     8:10   0  24.4G  0 part /
+└─sda11                     8:11   0 279.8G  0 part 
+  ├─vg-home               254:4    0    34G  0 lvm  /home
+sdb                         8:16   1   6.2G  0 disk 
+sr0                        11:0    1  1024M  0 rom  
+---- 
+
+
+2+a|
+### Mounting the USB device
+
+You’ll want to mount the USB device in order to be able to transfer files; use the following incantations:
+
+I've read that the `usbmount` program can be set up to automatically mount devices. I haven’t had much luck with it.
+
+`Gnome automount` is another possibility for auto mounting. I haven’t much experience with this either.
+
+The simplest way is to manually mount the device.
+
+
+a|
+.app.sh
+[#src-listing] 
+[source,shell]  
+---- 
+require 'sinatra'
+
+get '/hi' do
+  "Hello World!"
+end
+----
+
+
+a|
+.app.sh
+[#src-listing] 
+[source,shell]  
+---- 
+require 'sinatra'
+
+get '/hi' do
+  "Hello World!"
+end
+----
+
+2+a|
+### Ejecting the USB drive
+ 
+Once you’ve transferred the file over to the device, you'll want to
+eject it. If you unplug the cable prematurely, you may end up with a
+partially copied file, and the kindle will complain that it can’t read
+it.
+
 
 |=======
-
 
